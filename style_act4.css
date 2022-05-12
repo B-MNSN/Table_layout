@@ -1,0 +1,28 @@
+table,th,td{
+    border: 2px solid red;
+    text-transform: uppercase;
+    color: skyblue;
+    text-align: center;
+    width: 50%;
+    height: 100px;
+}
+tr > td:nth-child(odd){
+    width: 25%;
+}
+tr:nth-child(even){
+    height: 500px;
+}
+img{
+    height: 150px;
+}
+p{
+    margin: 0;
+}
+.detail{
+    text-transform: none;
+    text-align: justify;
+    padding: 10px;
+}
+.footer{
+    text-transform: none;
+}
